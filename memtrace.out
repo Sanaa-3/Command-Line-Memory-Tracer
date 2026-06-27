@@ -1,0 +1,37 @@
+array[0][0]=0
+array[0][1]=1
+array[0][2]=2
+array[1][0]=10
+array[1][1]=11
+array[1][2]=12
+array[2][0]=20
+array[2][1]=21
+array[2][2]=22
+array[3][0]=30
+array[3][1]=31
+array[3][2]=32
+array[0][0]=0
+array[0][1]=1
+array[0][2]=2
+array[0][3]=3
+array[1][0]=10
+array[1][1]=11
+array[1][2]=12
+array[1][3]=13
+array[2][0]=20
+array[2][1]=21
+array[2][2]=22
+array[2][3]=23
+array[3][0]=30
+array[3][1]=31
+array[3][2]=32
+array[3][3]=33
+File mem_tracer.c, line 215, function main:global allocated new memory segment at address 0x5e34946bd3e0 with size 80
+File mem_tracer.c, line 240, function main:global allocated new memory segment at address 0x5e34946bc2e0 with size 8
+File mem_tracer.c, line 240, function main:global allocated new memory segment at address 0x5e34946bd850 with size 52
+Linked list nodes: 
+Line 1: sleep 5
+Line 2: ./A1/matrixmult test/A1.txt test/W1.txt test/B1.txt
+File mem_tracer.c, line 262, function main:global freed memory segment at address 0x5e34946bc2e0
+File mem_tracer.c, line 262, function main:global freed memory segment at address 0x5e34946bd850
+File mem_tracer.c, line 264, function main:global freed memory segment at address 0x5e34946bd3e0
